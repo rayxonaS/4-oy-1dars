@@ -4,33 +4,243 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Design</title>
-    <link rel="stylesheet" href="./scss/style.scss" />
     <link rel="stylesheet" href="./css/style.min.css" />
+    <link rel="stylesheet" href="./scss/style.scss" />
   </head>
   <body>
     <header class="header">
       <div class="header-container container">
-        <a href="#" class="siten-logo">
+        <a class="site-logo" href="#">
           <img
-            src="./images/designo black.svg"
+            class="site-logo-image"
+            src="./images/logo-dark.png"
             alt=""
             width="196px"
-            height="64px"
-            class="site-image"
+            height="24px"
           />
         </a>
-        <nav class="sitenav-list">
-          <li class="sitenav-item">
-            <a href="./pages/about.html" class="sitenav-link">Our company</a>
-          </li>
-          <li class="sitenav-item">
-            <a href="./pages/location.html" class="sitenav-link">Locations</a>
-          </li>
-          <li class="sitenav-item">
-            <a href="./pages/contact.html" class="sitenav-link">Contact</a>
-          </li>
+
+        <nav class="sitenav">
+          <ul class="sitenav-list">
+            <li class="sitenav-item">
+              <a class="sitenav-link" href="./pages/about.html">OUR COMPANY</a>
+            </li>
+            <li class="sitenav-item">
+              <a class="sitenav-link" href="./pages/locations.html"
+                >LOCATIONS</a
+              >
+            </li>
+            <li class="sitenav-item">
+              <a class="sitenav-link" href="./pages/contact.html">CONTACT</a>
+            </li>
+          </ul>
         </nav>
       </div>
     </header>
+
+    <main class="main">
+      <div class="hero-container container">
+        <div class="hero-content">
+          <h1 class="hero-text">
+            Award-winning custom designs and digital branding solutions
+          </h1>
+          <p class="hero-description">
+            With over 10 years in the industry, we are experienced in creating
+            fully responsive websites, app design, and engaging brand
+            experiences. Find out more about our services.
+          </p>
+          <a class="hero-btn" href="#">Learn More</a>
+        </div>
+        <picture>
+          <source srcset="./images/hero-mobile.1.png" media="max-width:375px" />
+
+          <source srcset="./images/hero-tablet.1.png" media="max-width:689px" />
+          <img
+            class="hero-image"
+            src="./images/hero-desktop.png"
+            alt=""
+            width="281px"
+            height="571px"
+          />
+        </picture>
+      </div>
+
+      <section class="projects">
+        <div class="projects-container container">
+          <ul class="projects-list">
+            <li class="projects-item">
+              <h2 class="projects-text">Web Design</h2>
+              <p class="projects-content">View Projects</p>
+            </li>
+            <li class="projects-item">
+              <h2 class="projects-text">App Design</h2>
+              <p class="projects-content">View Projects</p>
+            </li>
+            <li class="projects-item">
+              <h2 class="projects-text">Graphic Design</h2>
+              <p class="projects-content">View Projects</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="options">
+        <div class="options-container container">
+          <div class="options-main">
+            <a href="">
+              <img
+                class="main-image"
+                src="./images/illustration-passionate.svg"
+                alt=""
+                width="184px"
+                height="162px"
+              />
+            </a>
+            <div class="main-list">
+              <h1 class="options-main-text">PASSIONATE</h1>
+              <p class="options-main-content">
+                Each project starts with an in-depth brand research to ensure we
+                only create products that serve a purpose. We merge art, design,
+                and technology into exciting new solutions.
+              </p>
+            </div>
+          </div>
+          <div class="options-secondary">
+            <a href="#">
+              <img
+                class="secondary-image"
+                src="./images/illustration-resourceful.svg"
+                alt=""
+                width="202px"
+                height="202px"
+              />
+            </a>
+            <div class="secondary-list">
+              <h1 class="options-secondary-text">RESOURCEFUL</h1>
+              <p class="options-secondary-content">
+                Everything that we do has a strategic purpose. We use an agile
+                approach in all of our projects and value customer
+                collaboration. It guarantees superior results that fulfill our
+                clients’ needs.
+              </p>
+            </div>
+          </div>
+          <div class="options-third">
+            <a href="">
+              <img
+                class="third-image"
+                src="./images/illustration-friendly.svg"
+                alt=""
+                width="202px"
+                height="202px"
+              />
+            </a>
+            <div class="third-list">
+              <h1 class="options-third-text">FRIENDLY</h1>
+              <p class="options-third-content">
+                We are a group of enthusiastic folks who know how to put people
+                first. Our success depends on our customers, and we strive to
+                give them the best experience a company can provide.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <cta class="footer">
+        <div class="cta-container container">
+          <div class="cta-content">
+            <h1 class="cta-content-text">Let’s talk about your project</h1>
+            <p class="cta-description">
+              Ready to take it to the next level? Contact us today and find out
+              how our expertise can help your business grow.
+            </p>
+          </div>
+          <a class="cta-btn" href="#">Get in touch</a>
+        </div>
+      </cta>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container container">
+        <div class="footer-main">
+          <a class="footer-logo" href="#">
+            <img
+              class="footer-logo-image"
+              src="./images/logo-light.png"
+              alt=""
+              width="196px"
+              height="24px"
+            />
+          </a>
+          <nav class="footer-sitenav">
+            <ul class="footer-sitenav-list">
+              <li class="footer-sitenav-item">
+                <a class="footer-sitenav-link" href="#">OUR COMPANY</a>
+              </li>
+              <li class="footer-sitenav-item">
+                <a class="footer-sitenav-link" href="./pages/locations.html"
+                  >LOCATIONS</a
+                >
+              </li>
+              <li class="footer-sitenav-item">
+                <a class="footer-sitenav-link" href="./pages/contact.html"
+                  >CONTACT</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <hr class="divider" />
+        <ul class="footer-list">
+          <li class="footer-item">
+            Designo Central Office 3886 Wellington Street <br />
+            Toronto, Ontario M9C 3J5
+          </li>
+          <li class="footer-item">
+            Contact Us (Central Office) <br />P : +1 253-863-8967 M :
+            contact@designo.co
+          </li>
+          <li class="footer-item-links">
+            <a href="" class="footer-item-link">
+              <img
+                src="./images/icon-facebook.svg"
+                alt=""
+                class="footer-link-image"
+              />
+            </a>
+            <a href="" class="footer-item-link">
+              <img
+                src="./images/icon-instagram.svg"
+                alt=""
+                class="footer-link-image"
+              />
+            </a>
+            <a href="" class="footer-item-link">
+              <img
+                src="./images/icon-pinterest.svg"
+                alt=""
+                class="footer-link-image"
+              />
+            </a>
+            <a href="" class="footer-item-link">
+              <img
+                src="./images/icon-twitter.svg"
+                alt=""
+                class="footer-link-image"
+              />
+            </a>
+            <a href="" class="footer-item-link">
+              <img
+                src="./images/icon-youtube.svg"
+                alt=""
+                class="footer-link-image"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
