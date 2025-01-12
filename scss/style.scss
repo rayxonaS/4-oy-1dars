@@ -1,21 +1,21 @@
-@import "./vendors/normalize";
+@import "./vendors/_normalize.scss";
 
-@import "./utils/variables";
-@import "./utils/mixins";
-@import "./utils/functions";
+@import "./utils/_variables.scss";
+@import "./utils/_mixins.scss";
+@import "./utils/_functions.scss";
 
-@import "./base/typography";
-@import "./base/resets";
+@import "./base/_typography.scss";
+@import "./base/_resets.scss";
 
-@import "./components/buttons";
+@import "./components/_buttons.scss";
 
-@import "./layouts/header";
-@import "./layouts/footer";
+@import "./layouts/_header.scss";
+@import "./layouts/_footer.scss";
 
-@import "./pages/about";
-@import "./pages/app";
-@import "./pages/contact";
-@import "./pages/graphic";
-@import "./pages/index";
-@import "./pages/locations";
-@import "./pages/web";
+@import "./pages/_about.scss";
+@import "./pages/_app.scss";
+@import "./pages/_contact.scss";
+@import "./pages/_graphic.scss";
+@import "./pages/_index.scss";
+@import "./pages/_locations.scss";
+@import "./pages/_web.scss";

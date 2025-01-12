@@ -1,0 +1,367 @@
+.main {
+  padding-top: 6.4rem;
+  padding-bottom: 6.4rem;
+}
+.hero-container {
+  width: 100%;
+  max-width: 1111px;
+  background-color: #e7816b;
+  display: flex;
+  gap: 5rem;
+  background-image: url(../../images/bg-pattern-hero-home.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.hero-content {
+  width: 100%;
+  max-width: 540px;
+}
+.hero-text {
+  font-family: Jost;
+  font-size: 4.8rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #ffffff;
+  margin-top: 14rem;
+  margin-bottom: 1.1rem;
+}
+.hero-description {
+  width: 100%;
+  max-width: 445px;
+  font-family: Jost;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #ffffff;
+  margin-bottom: 4rem;
+}
+.hero-btn {
+  width: 152px;
+  height: 56px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  font-family: Jost;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  color: #333136;
+  padding: 1.8rem 2.5rem 1.6rem 2.4rem;
+}
+
+.hero-btn:active {
+  background-color: #ffad9b;
+}
+
+.projects {
+  padding-top: 16rem;
+  padding-bottom: 16rem;
+}
+
+.projects-list {
+  height: 640px;
+  display: grid;
+  column-gap: 3rem;
+  row-gap: 2.4rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "webdesign appdesign" "webdesign graphicdesign";
+}
+
+.projects-item:nth-child(1) {
+  grid-area: webdesign;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/image-web-design-large.jpg);
+
+  &:hover {
+    background-image: linear-gradient(
+        rgba(231, 129, 107, 0.8),
+        rgba(231, 129, 107, 0.8)
+      ),
+      url(../images/image-web-design-large.jpg);
+  }
+}
+
+.projects-item:nth-child(2) {
+  grid-area: appdesign;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/image-app-design.jpg);
+
+  &:hover {
+    background-image: linear-gradient(
+        rgba(231, 129, 107, 0.8),
+        rgba(231, 129, 107, 0.8)
+      ),
+      url(../images/image-app-design.jpg);
+  }
+}
+
+.projects-item:nth-child(3) {
+  grid-area: graphicdesign;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/image-graphic-design.jpg);
+
+  &:hover {
+    background-image: linear-gradient(
+        rgba(231, 129, 107, 0.8),
+        rgba(231, 129, 107, 0.8)
+      ),
+      url(../images/image-graphic-design.jpg);
+  }
+}
+
+.projects-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+  color: #ffffff;
+  border-radius: 15px;
+}
+
+.projects-text {
+  font-family: Jost;
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 2px;
+}
+
+.projects-content {
+  font-family: Jost;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 5px;
+}
+.options {
+  padding-top: 16rem;
+  padding-bottom: 16rem;
+}
+.options-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10rem;
+}
+
+.options-main-text {
+  margin-top: 6.8rem;
+  margin-bottom: 3.2rem;
+  font-family: Jost;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 5px;
+  text-align: center;
+  color: #333136;
+}
+.options-main-content {
+  font-family: Jost;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.3;
+  text-align: center;
+  color: #333136;
+}
+
+.options-secondary-text {
+  margin-top: 4.8rem;
+  margin-bottom: 3.2rem;
+  font-family: Jost;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 5px;
+  text-align: center;
+  color: #333136;
+}
+.options-secondary-content {
+  font-family: Jost;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.3;
+  text-align: center;
+  color: #333136;
+}
+
+.options-third-text {
+  margin-top: 4.8rem;
+  margin-bottom: 3.2rem;
+  font-family: Jost;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 5px;
+  text-align: center;
+  color: #333136;
+}
+.options-third-content {
+  font-family: Jost;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.3;
+  text-align: center;
+  color: #333136;
+}
+
+.main-list {
+  width: 100%;
+  max-width: 350px;
+}
+
+.secondary-list {
+  width: 100%;
+  max-width: 350px;
+}
+
+.third-list {
+  width: 100%;
+  max-width: 350px;
+}
+
+@media screen and (max-width: 500px) {
+  .options-container {
+    flex-direction: column;
+  }
+
+  .options-main {
+    flex-direction: column;
+  }
+
+  .options-secondary {
+    flex-direction: column;
+  }
+
+  .options-third {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .projects-list {
+    height: auto;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "webdesign"
+      "appdesign"
+      "graphicdesign";
+  }
+
+  .projects-item {
+    width: 100%;
+    padding: 5.3rem 0;
+  }
+
+  .options-container {
+    flex-direction: column;
+  }
+
+  .options-main {
+    display: flex;
+  }
+
+  .main-list {
+    flex-direction: column;
+    gap: 6.8rem;
+  }
+
+  .options-secondary {
+    display: flex;
+  }
+
+  .secondary-list {
+    flex-direction: column;
+    gap: 6.8rem;
+  }
+
+  .options-third {
+    display: flex;
+  }
+
+  .third-list {
+    flex-direction: column;
+    gap: 6.8rem;
+  }
+}
+
+.cta {
+  padding-top: 12rem;
+}
+.cta-container {
+  background-color: #e7816b;
+  width: 100%;
+  max-width: 1111px;
+  height: 292px;
+  background-image: url(../images/bg-pattern-two-circles.svg);
+  background-repeat: repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  gap: 30rem;
+  color: #ffffff;
+}
+
+.cta-content {
+  margin-top: 5rem;
+  width: 100%;
+  max-width: 459px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cta-content-text {
+  font-family: Jost;
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 4rem;
+}
+.cta-description {
+  font-family: Jost;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.3;
+}
+.cta-btn {
+  align-items: center;
+  justify-content: center;
+  width: 152px;
+  height: 56px;
+  border-radius: 8px;
+  font-family: Jost;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 1px;
+  color: #333136;
+  padding: 1.7rem 1.9rem 1.7rem 1.8rem;
+  background-color: #ffffff;
+
+  &:hover {
+    background-color: #ffad9b;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cta-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cta-btn {
+    display: none;
+  }
+}
